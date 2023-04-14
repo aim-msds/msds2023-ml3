@@ -1,0 +1,26 @@
+name: msds2023-ml3-cnn
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - ipykernel
+  - python=3.8.16
+  - scikit-learn
+  - seaborn
+  - pip
+  - scipy
+  - notebook
+  - tensorflow
+  - pip:
+    - jupyter-contrib-nbextensions
+    - ipywidgets
+    - scikit-image
+    - transformers
+    - torch
+    - h5py
+    - SimpleITK
+    - Pillow
+    - torchvision
